@@ -1,5 +1,5 @@
-# portal
+# html-template
 
-This repo creates a page on which I store my web projects
+This repo will be used as a Template to create other web Projects.
 
 

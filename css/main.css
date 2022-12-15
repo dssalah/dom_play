@@ -14,19 +14,22 @@ html {
 
 body{
     margin:0; /* removes space above body, top of page */
+    background: #ff0;
  }
  
 
 ::selection {
     color: #000; 
-    background: #ff0;
+    background: rgb(255, 255, 255);
 }
 
 h1 {
-    font-weight: normal;
+    font-weight: heavy;
     margin: auto;
     background: #fff;
     line-height: 2.5em;
+    text-align:center
+    font-size: 2ems
 }
 
 h1.page-header{
@@ -61,12 +64,12 @@ h2,h3 {
 }
 
 a {
-    color:darkcyan;
+    color:rgb(255, 255, 255);
     text-decoration: none;
 }
 
 a:hover {
-    color: whitesmoke;
+    color: rgb(136, 129, 129);
     background-color: darkcyan;
     text-decoration: none;
 }

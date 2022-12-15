@@ -1,20 +1,20 @@
 /* Global rules */
 
-@import url('https://fonts.googleapis.com/css?family=Quicksand|Spectral');
+@import url( 'https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
 
 html {
     background-color: lightgray;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 0.95em;
     line-height: 1.5em;
-    background-image: url("../images/background.jpg");
+    
     background-repeat: no-repeat;
     background-size: 2000px 1200px;
 }
 
 body{
     margin:0; /* removes space above body, top of page */
-    background: #ff0;
+    
  }
  
 
@@ -33,13 +33,15 @@ h1 {
 }
 
 h1.page-header{
-    font-family: 'Spectral',serif;
+    font-family: 'Poppins',serif;
+    text-align: center;
     -webkit-border-top-left-radius: 5px;
     -webkit-border-top-right-radius: 5px;
     -moz-border-radius-topleft: 5px;
     -moz-border-radius-topright: 5px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
+    background-color: magenta;
  }
  
 
@@ -61,11 +63,13 @@ h2,h3 {
     font-weight: normal;
     margin-left: 1em;
     line-height: 1em;
+    text-align: center;
 }
 
 a {
-    color:rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
     text-decoration: none;
+    
 }
 
 a:hover {
@@ -79,7 +83,11 @@ footer {
     text-align: center;
     padding: 1em;
 }
-
+summary {
+    font-style: italic;
+    font-size: normal;
+    font-family: 'Poppins', sans-serif;
+}
 /* Responsive rules */
 
 /* DESKTOP */

@@ -47,11 +47,10 @@ let spans = document.querySelectorAll("#play span");
  for(const mySpan of spans){
 
     //mySpan.addEventListener("click",myAlert);
-    //
+    //alert(mySpan.dataset.actor);
     mySpan.addEventListener("click", function(ev) {
         highlightActor(mySpan.dataset.actor);
-        //alert(mySpan.dataset.actor);
-    
+        
 
     });
 }
